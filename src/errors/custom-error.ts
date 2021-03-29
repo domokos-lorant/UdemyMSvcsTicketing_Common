@@ -1,6 +1,6 @@
 export type SerializedErrors = { message: string; field?: string }[];
 
-export default abstract class CustomError extends Error {
+export abstract class CustomError extends Error {
    abstract statusCode: number;
 
    constructor(message: string) {

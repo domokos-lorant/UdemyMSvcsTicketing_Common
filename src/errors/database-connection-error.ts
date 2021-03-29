@@ -1,8 +1,8 @@
-import CustomError, { SerializedErrors } from "./custom-error";
+import { CustomError, SerializedErrors } from "./custom-error";
 
 const REASON = "Error connecting to the database";
 
-export default class DatabaseConnectionError extends CustomError {
+export class DatabaseConnectionError extends CustomError {
    reason = REASON;
    statusCode = 500;
 

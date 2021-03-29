@@ -1,4 +1,4 @@
-import CustomError, { SerializedErrors } from "./custom-error";
+import { CustomError, SerializedErrors } from "./custom-error";
 
 const ERROR_MESSSAGE = "Not authorized";
 
